@@ -13,8 +13,8 @@ router.post('/', (req, res) => {
   const options = {
     token: {
       key: 'setrowMobile-Push.p8',
-      keyId: 'QWECU5MZ66',
-      teamId: 'G5W573J836'
+      keyId: process.env.KEY_ID,
+      teamId: process.env.TEAM_ID
     },
     production: false
   }
