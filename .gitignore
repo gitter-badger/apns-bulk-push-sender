@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+setrowMobile-Push.p12
+setrowMobile-Push.p8
+.env
